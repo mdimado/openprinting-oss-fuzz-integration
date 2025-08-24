@@ -1,5 +1,16 @@
 # Integrating OSS-Fuzz for Go-Based and Python-Based OpenPrinting Projects
 
+#### Contributor: Mohammed Imaduddin
+
+#### Organization: OpenPrinting, The Linux Foundation
+
+#### Mentors: Till Kamppeter, iosifache, ttfish, Ira McDonald, ShivamMishra, Dongge Liu
+
+### Description 
+The OpenPrinting ecosystem includes multiple utilities for driverless printing, protocol implementation, and printer management, with components written in Go and Python. These projects, such as `ipp-usb`, `goipp`, `pycups`, and `pyppd`, currently lack fuzz testing, leaving them vulnerable to undetected bugs and security issues.  
+
+This project integrates these polyglot OpenPrinting components into [OSS-Fuzz](https://github.com/google/oss-fuzz), enabling continuous large-scale fuzzing. The work involves evaluating existing tests, improving coverage, identifying suitable fuzzing targets, developing fuzz harnesses, and upstreaming the integrations. The goal is to expand OSS-Fuzz coverage for OpenPrinting, strengthening the overall security and reliability of its ecosystem.
+
 
 ## Weekly Progress
 
